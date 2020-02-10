@@ -1,8 +1,16 @@
 HELP.md
+
+### maven ###
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+
+## gradle ###
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+.gradle
+build
 
 ### STS ###
 .apt_generated
@@ -29,5 +37,4 @@ build/
 
 ### VS Code ###
 .vscode/
-
 .DS_Store
